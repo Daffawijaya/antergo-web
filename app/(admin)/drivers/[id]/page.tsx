@@ -88,7 +88,7 @@ export default function DriverDetailPage({
     }
 
     const messages = {
-      approved: `Setujui ${driver.user.name} sebagai driver AnterGo?`,
+      approved: `Setujui ${driver.user.name} sebagai driver anterGo?`,
       rejected: `Tolak pengajuan driver ${driver.user.name}?`,
       suspended: `Tangguhkan akses driver ${driver.user.name}?`,
     };

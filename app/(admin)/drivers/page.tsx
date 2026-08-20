@@ -97,7 +97,7 @@ export default function DriversPage() {
     <>
       <PageTitle
         title="Driver"
-        description="Verifikasi pendaftaran dan kelola status driver AnterGo."
+        description="Verifikasi pendaftaran dan kelola status driver anterGo."
         action={
           <div className="flex flex-col gap-2 sm:flex-row">
             <input

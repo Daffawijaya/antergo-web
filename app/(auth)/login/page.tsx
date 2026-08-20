@@ -23,7 +23,7 @@ export default function LoginPage() {
 
   return (
     <main className="flex min-h-screen flex-col justify-between px-6 py-10 text-white">
-      <div><div className="mb-10 inline-flex items-center gap-2 rounded-2xl bg-amber-400 px-4 py-3 text-slate-950"><ShieldCheck /><span className="text-xl font-black">AnterGo</span></div><h1 className="text-4xl font-black leading-tight">Kendalikan operasi<br /><span className="text-amber-400">dengan aman.</span></h1><p className="mt-3 max-w-xs text-slate-400">Dashboard resmi untuk tim administrator AnterGo.</p></div>
+      <div><div className="mb-10 inline-flex items-center gap-2 rounded-2xl bg-amber-400 px-4 py-3 text-slate-950"><ShieldCheck /><span className="text-xl font-black">anterGo</span></div><h1 className="text-4xl font-black leading-tight">Kendalikan operasi<br /><span className="text-amber-400">dengan aman.</span></h1><p className="mt-3 max-w-xs text-slate-400">Dashboard resmi untuk tim administrator anterGo.</p></div>
       <form onSubmit={submit} className="mt-12 rounded-[2rem] bg-white p-5 text-slate-900 shadow-2xl">
         <h2 className="text-xl font-extrabold">Masuk sebagai admin</h2><p className="mb-5 mt-1 text-sm text-slate-500">Gunakan akun yang memiliki role admin.</p>
         {error ? <p className="mb-4 rounded-xl bg-rose-50 p-3 text-sm text-rose-700">{error}</p> : null}
